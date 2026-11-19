@@ -1,0 +1,53 @@
+﻿[BTTH] Bài tập thực hành tổng hợp
+1. Bối cảnh bài toán thực tế
+Xây dựng giải pháp hoàn chỉnh giải quyết yêu cầu tích hợp liên quan đến Feynman Prompt gia sư, Rubric chấm bài tự động.
+2. Yêu cầu chi tiết
+Thiết lập chuỗi prompt liên kết (Prompt Chaining) chạy tuần tự khép kín để giải quyết bài toán lớn.
+3. Ràng buộc kỹ thuật
+Code sạch, tối ưu token, có cơ chế bắt lỗi dữ liệu dị biệt không làm crash hệ thống.
+
+
+Prompt 1:
+Bạn hãy đóng vai là người kiểm duyệt bài trước khi đưa đến ban giám khảo 
+* Đề bài: Giải thích khái niệm Mảng (Array) trong ngôn ngữ lập trình C/C++. 
+* Bài làm của sinh viên: Mảng là một biến đặc biệt dùng để lưu nhiều giá trị cùng một lúc thay vì phải khai báo nhiều biến lẻ tẻ. Ví dụ muốn lưu điểm của 50 bạn trong lớp thì dùng mảng cho nhanh. Tuy nhiên mảng có thể chứa lẫn lộn cả số nguyên và chữ cái bên trong 
+Bạn hãy xem qua bài làm của sinh viên và coi coi có chỗ nào chèn thêm ký tự vô nghĩa vào không
+* Nếu có thì hãy báo một dòng “Lỗi” 
+* Nếu không có thì chỉ báo một dòng “Hợp lệ”
+
+
+Ràng buộc:
+* Không được có lời chào hỏi hay giải thích dài dòng.
+
+
+Prompt 2:
+Dựa vào đề bài và bài làm ở trên:
+Bạn hãy đóng vai trò là một giám khảo khó tính đang chấm bài làm của sinh viên
+Bạn hãy đánh giá bài làm của học viên dựa trên Rubric, chỉ ra lỗi sai và giải thích lại kiến thức theo phương pháp Feynman.
+
+
+Bạn hãy xuất ra các kết quả như sau:
+
+
+Bảng tiêu chí chấm điểm (làm dưới dạng bảng Markdown)
+|Tiêu chí | Điểm tối đa | Điểm đạt được | Nhận xét chi tiết |
+ |:---:|:---: |:---:| :---:| 
+| Logic | ... | ... | ... | 
+| Độ chính xác | ... | ... | ... | 
+|Tổng điểm|... | ... |... | 
+
+
+
+
+ Phân tích lỗi sai và gợi ý sửa lại:
+* Chỗ làm tốt: “…” 
+* Lỗi cần khắc phục:”..” (Chỉ rõ câu hoặc ý nào sai và hướng dẫn cách sửa lại cho đúng). 
+
+
+ Giải thích theo kỹ thuật Feynman:
+* Giải thích lại toàn bộ khái niệm của đề bài bằng ngôn ngữ đời thường, ngắn gọn, không dùng thuật ngữ phức tạp và kèm theo 1 ví dụ thực tế gần gũi nhất. 
+
+
+Ràng buộc:
+* Không có lời chào hỏi hay giải thích dài dòng
+* Nếu bài làm bị lạc đề hoàn toàn so với đề bài thì bạn phải chấm luôn 0 điểm toàn bộ bài và ghi rõ lý do: "Bài làm không làm đúng trọng tâm câu hỏi"
